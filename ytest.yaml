@@ -1,0 +1,23 @@
+#############Datasets文件夹#############
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /root/ultralytics/datasets/yolotest # dataset root dir
+train: /root/ultralytics/datasets/yolotest/images/train # train images (relative to 'path') 4 images
+val: /root/ultralytics/datasets/yolotest/images/val # val images (relative to 'path') 4 images
+test: /root/ultralytics/datasets/yolotest/images/test # test images (optional)
+
+# Classes
+names:
+  0: fire
+  1: smoke
+
+# ##############Datasets2文件夹#############
+# # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# path: /root/ultralytics/datasets2/yolotest # dataset root dir
+# train: /root/ultralytics/datasets2/yolotest/images/train # train images (relative to 'path') 4 images
+# val: /root/ultralytics/datasets2/yolotest/images/val # val images (relative to 'path') 4 images
+# test: /root/ultralytics/datasets2/yolotest/images/test # test images (optional)
+
+# # Classes
+# names:
+#   0: fire
+#   1: smoke
